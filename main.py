@@ -24,7 +24,7 @@ class BilgeBot(discord.Client):
 
     # Render'ın "bot yaşıyor mu" diye kontrol etmesi için web sunucusu rotası
     async def web_handler(self, request):
-        return web.Response(text="Bot aktif ve çalışıyor, sıkıntı yok hacı!")
+        return web.Response(text="bir coZ projesi")
 
     # discord.py v2 ile gelen setup_hook, bot başlamadan hemen önce çalışır
     async def setup_hook(self):
